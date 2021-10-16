@@ -1,0 +1,37 @@
+import React from 'react'
+import styled from "styled-components";
+import './Dashboard.css';
+
+const Participantdiv=styled.div`
+height:80%;
+overflow-y:scroll;
+
+`;
+const Participants = () => {
+    return (
+        <Participantdiv>
+              
+              <h3 className="text-center">Username</h3>
+              <div>
+              <h6 className="mt-5">Active Groups</h6>
+              <hr/>
+              <div className="left_side_divs mt-0">
+                  <p>Hello World</p> 
+
+            
+              </div>
+             
+
+              </div>
+             
+              <div>
+              <h6 className="mt-5">Users Active</h6>
+              <hr/>
+              
+              </div>
+
+              </Participantdiv>
+    )
+}
+
+export default Participants
